@@ -20,7 +20,7 @@ tarjomion = Translator()
 async def StartCommand(messaga: types.Message, state: FSMContext):
     await state.set_state(Translate.lang)
     await messaga.answer("Assalomu alaykum translateda birini tanlang: ", reply_markup=menu)
-
+# fdsafas
 
 @dp.message(Translate.lang)
 async def TranslateLangCommand(message: types.Message, state: FSMContext):
